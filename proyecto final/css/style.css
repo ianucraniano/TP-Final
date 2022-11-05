@@ -1,0 +1,567 @@
+:root {
+    --colores: black;
+    --color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(0, 0, 0) ;
+}
+
+.container{
+    width: 100%;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+
+
+.eslogan{
+   position: relative;
+   top: 200px;
+   left: 700px;
+   font-size: 30px;
+   color: black;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    background-image: url('../imagenes/sports-car-4815234__340.webp');
+    background-size: cover;     
+    
+}
+section{
+    width: 100%;
+    height: 600px;
+}
+
+
+
+.color{
+    background-color: var(--color);
+}
+.colores{
+    background-color: var(--colores);
+}
+
+.present{
+    
+width: 60%;
+position: relative;
+color: var(--color);
+margin: 100px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.imagen{
+    background-image: url('../imagenes/speedometer-1249610__340.jpg');
+    background-size: cover;
+}
+
+
+.letra{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+}
+.tracking-in-contract-bck-bottom {
+	-webkit-animation: tracking-in-contract-bck-bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite;
+	        animation: tracking-in-contract-bck-bottom 2s cubic-bezier(0.215, 0.610, 0.355, 1.000) infinite;
+
+}
+@-webkit-keyframes tracking-in-contract-bck-bottom {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(300px);
+              transform: translateZ(400px) translateY(300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes tracking-in-contract-bck-bottom {
+    0% {
+      letter-spacing: 1em;
+      -webkit-transform: translateZ(400px) translateY(300px);
+              transform: translateZ(400px) translateY(300px);
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: translateZ(0) translateY(0);
+              transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+.fondo{
+    
+    background: linear-gradient(0deg, rgba(193, 198, 212, 0.568) 0%, rgba(0, 0, 0, 0.507) 73%), url('../imagenes/Audi-R8-ORIGINAL_2-1200x494.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.info{
+    color: #fff;
+    margin-top: 4rem;
+    margin-left: 6rem;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    
+}
+
+.fondodos{
+    display: flex;
+    margin-top: 40px;
+    padding: 20px;
+    width: 20%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 100;
+
+}
+.fondodos div{
+    margin: 10px;
+    box-shadow: 0 20px 20px black;
+    border-radius: 5px;
+    
+}
+
+
+
+.pie{
+    display: flex;
+    margin: 10px;
+    padding: 5px;
+    justify-content: end;
+
+}
+.pie div{
+margin: 10px;
+cursor: pointer;
+font-size: 30px;
+
+}
+.header{
+    background-color: #12396d;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top:0 ;
+    left: 0;
+    z-index: 999;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 925px;
+    margin: 0 auto;
+    z-index: 99999;
+
+}
+.nav-link{
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-menu{
+   display: flex;
+   margin-right: 40px;
+   list-style: none;
+   
+    
+}
+
+.main-menu__item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    width: max-content;
+}
+.main-menu__link{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 13px;
+    border-radius: 5px ;
+}
+.main-menu__link:hover
+{
+    background-color: #83c5f7;
+    color: #fff;
+    transition: .5s;
+}
+.toggle-menu{
+   color: #fff;
+   background: none;
+   border: none;
+   font-size: 30px;
+   padding: 0 20px;
+   line-height: 60px;
+
+   display: none;
+
+}
+.alto{
+    margin: 40px 0;
+   
+
+
+}
+
+.angry-grid {
+    display: grid; 
+    
+ 
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    
+    
+ }
+   
+ .item-0 {
+ 
+    background-image: url(../imagenes/porsche-4795517__340.jpg);
+    background-size: cover;
+    grid-row-start: 1;
+    grid-column-start: 1;
+ 
+    grid-row-end: 2;
+    grid-column-end: 2;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px black;
+    
+ }
+ .item-1 {
+ 
+    background-image: url('../imagenes/mercedes-1327610__340.jpg'); 
+    background-size: cover;
+    grid-row-start: 1;
+    grid-column-start: 2;
+ 
+    grid-row-end: 2;
+    grid-column-end: 3;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px black;
+ }
+ .item-2 {
+ 
+    background-image: url('../imagenes/renault-clio-1671405__340.jpg') ;
+    background-size: cover; 
+    grid-row-start: 1;
+    grid-column-start: 3;
+ 
+    grid-row-end: 2;
+    grid-column-end: 4;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px black;
+ }
+ .item-3 {
+ 
+    background-image: url('../imagenes/car-1879630__340.jpg') ; 
+    background-size: cover;
+    grid-row-start: 2;
+    grid-column-start: 3;
+ 
+    grid-row-end: 3;
+    grid-column-end: 4;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px black;
+ }
+ .item-4 {
+ 
+    background-image: url('../imagenes/car-1890494__340.jpg');
+    background-size: cover; 
+    grid-row-start: 2;
+    grid-column-start: 2;
+ 
+    grid-row-end: 3;
+    grid-column-end: 3;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px black;
+ }
+ .item-5 {
+ 
+    background-image: url('../imagenes/auto-2179220__340.jpg');
+    background-size: cover;
+    background-position: 0.1em; 
+    grid-row-start: 2;
+    grid-column-start: 1;
+ 
+    grid-row-end: 3;
+    grid-column-end: 2;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px black;
+ }
+ 
+
+ .textos{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+ }
+
+
+
+
+ 
+ 
+ @media screen and (max-width: 768px){
+    .toggle-menu{
+        display: block;
+        cursor: pointer;
+        color: #fff;
+        
+        
+    }
+   
+    .logo{
+        font-size: 22px;
+        padding: 0 40px;
+        line-height: 80px;
+    }
+    .nav-menu{
+        flex-direction: column;
+        margin: 0;
+        margin-top: 20px;
+        align-items: center;
+        background-color: #1b5691;
+        padding: 20px 0;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 50px;
+        transform: translateY(-120%);
+        transition: .5s;
+        
+
+        height: calc(100% - 60px);
+        overflow-y: auto;
+        
+    }
+    .main-menu--show{
+        transition: 0.5s;
+        transform: translateY(0%);
+        
+        
+    }
+    .main-menu__item{
+        line-height: 70px;
+        
+    }
+   .main-menu__link{
+    padding: 8px 12px;
+    border-radius: 5px;
+   }
+
+   .main-menu__link:hover{
+    background: none;
+    color: #83c5f7;
+   }
+   .toggle-menu:focus:not(:focus-visible){
+    outline: none;
+    
+
+   }
+   .container{
+    width: 100%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.233);
+     }
+    header{
+    background-image: url('../imagenes/sports-car-4815234__340.webp');
+    background-size: cover; 
+    
+    
+     }
+   .eslogan{
+    position: relative;
+    top: 140px;
+    left: 200px;
+    font-size: 10px;
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;;
+     }
+    .letra{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    }
+   .present{
+    width: 50%;
+    height: 20%;
+    font-size: 14px;
+    position: relative;
+    color: var(--color);
+    margin: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+     section{
+       width: 100%;
+       height: 100%;
+    
+      }
+     .fondodos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 100;
+
+     }
+     .fondodos div{
+       margin: 10px;
+    
+      }
+
+     footer{
+      background-color: var(--colores);
+     }
+      .pie{
+     display: flex;
+     margin: 10px;
+     padding: 5px;
+     justify-content: end;
+    
+
+     }
+     .pie div{
+       margin: 10px;
+       cursor: pointer;
+       font-size: 30px;
+
+    }
+    .angry-grid {
+        display: grid; 
+        
+     
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
+        
+        gap: 15px;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        
+        
+     }
+       
+     .item-0 {
+     
+        background-image: url(../imagenes/porsche-4795517__340.jpg);
+        background-size: cover;
+        grid-row-start: 1;
+        grid-column-start: 1;
+     
+        grid-row-end: 2;
+        grid-column-end: 2;
+        border-radius: 10px;
+        box-shadow: 0 10px 25px black;
+        
+     }
+     .item-1 {
+     
+        background-image: url('../imagenes/mercedes-1327610__340.jpg'); 
+        background-size: cover;
+        grid-row-start: 1;
+        grid-column-start: 2;
+     
+        grid-row-end: 2;
+        grid-column-end: 3;
+        border-radius: 10px;
+        box-shadow: 0 10px 25px black;
+     }
+     .item-2 {
+     
+        background-image: url('../imagenes/renault-clio-1671405__340.jpg') ;
+        background-size: cover; 
+        grid-row-start: 1;
+        grid-column-start: 3;
+     
+        grid-row-end: 2;
+        grid-column-end: 4;
+        border-radius: 10px;
+        box-shadow: 0 10px 25px black;
+     }
+     .item-3 {
+     
+        background-image: url('../imagenes/car-1879630__340.jpg') ; 
+        background-size: cover;
+        grid-row-start: 2;
+        grid-column-start: 3;
+     
+        grid-row-end: 3;
+        grid-column-end: 4;
+        border-radius: 10px;
+        box-shadow: 0 10px 25px black;
+     }
+     .item-4 {
+     
+        background-image: url('../imagenes/car-1890494__340.jpg');
+        background-size: cover; 
+        grid-row-start: 2;
+        grid-column-start: 2;
+     
+        grid-row-end: 3;
+        grid-column-end: 3;
+        border-radius: 10px;
+        box-shadow: 0 10px 25px black;
+     }
+     .item-5 {
+     
+        background-image: url('../imagenes/auto-2179220__340.jpg');
+        background-size: cover;
+        background-position: 0.1em; 
+        grid-row-start: 2;
+        grid-column-start: 1;
+     
+        grid-row-end: 3;
+        grid-column-end: 2;
+        border-radius: 10px;
+        box-shadow: 0 10px 25px black;
+     }
+     
+    
+     .textos{
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+    
+    
+     }
+    
+    
+
+
+
+}
